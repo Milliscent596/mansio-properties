@@ -168,3 +168,9 @@ footer{background:var(--ink);color:rgba(255,255,255,.75);padding:64px 0 24px}
 .listband .ahl li{border-left-color:#fff}
 .listband .ahl b{color:#fff}.listband .ahl span{color:rgba(255,255,255,.82)}
 .listband .form{background:#fff}
+
+.svcgrid{display:flex;flex-wrap:wrap;justify-content:center;gap:22px}
+.svcgrid .svc{flex:0 0 calc((100% - 66px)/4);padding:28px 24px}
+.svcgrid .svc h3{font-size:19px}
+@media(max-width:1000px){.svcgrid .svc{flex-basis:calc((100% - 22px)/2)}}
+@media(max-width:600px){.svcgrid .svc{flex-basis:100%}}
